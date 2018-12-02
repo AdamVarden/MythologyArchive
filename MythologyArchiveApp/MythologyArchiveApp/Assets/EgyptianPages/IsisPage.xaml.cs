@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,19 +18,17 @@ namespace MythologyArchiveApp
         {
             InitializeComponent();
             SetupImagesOnPage();
+
         }
+
+
+
         private void SetupImagesOnPage()
         {
-            // get the assembly
             var assembly = typeof(IsisPage);
-            /*
-             * need a directory path - ImageSample/Assets/Images/oogway.jpg
-             * two parameters are that directory path in that assembly
-             */
-
             string strFilename = "MythologyArchiveApp.Assets.Images.isis3.jpg";
 
-            imageMain.Source = ImageSource.FromResource(strFilename, assembly);
+            isisImage.Source = ImageSource.FromResource(strFilename, assembly);
             
         }
     }

@@ -10,11 +10,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Images\horus.jpg" />
     <None Remove="Assets\Images\isis3.jpg" />
+    <None Remove="Assets\Information\isis.txt" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\horus.jpg" />
     <EmbeddedResource Include="Assets\Images\isis3.jpg" />
+    <EmbeddedResource Include="Assets\Information\isis.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,13 +26,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Assets\EgyptianPages\HorusPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="EgyptianOption.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="GreekOption.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="IsisPage.xaml">
+    <EmbeddedResource Update="Assets\EgyptianPages\IsisPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="NorseOption.xaml">

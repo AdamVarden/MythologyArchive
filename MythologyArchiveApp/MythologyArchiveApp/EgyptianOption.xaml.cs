@@ -24,9 +24,9 @@ namespace MythologyArchiveApp
 
         }
 
-        private void Horus_Clicked(object sender, EventArgs e)
+        private async void Horus_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new Assets.EgyptianPages.HorusPage());
         }
 
         private async void Isis_Clicked(object sender, EventArgs e)

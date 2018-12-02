@@ -3,12 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               xmlns:local="clr-namespace:MythologyArchiveApp"              
              x:Class="MythologyArchiveApp.IsisPage"
-              BackgroundColor="Black">
+              BackgroundColor="White">
     <ContentPage.Content>
-        <StackLayout x:Name="stckLayoutContent">
-            <Image x:Name="imageMain" Aspect="AspectFit" >
-
-            </Image>
-        </StackLayout>
+        <ScrollView>
+            <StackLayout x:Name="stckLayoutContent">
+                <Image x:Name="isisImage" Aspect="AspectFit" >
+                </Image>
+                <Label x:Name="isisText"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
