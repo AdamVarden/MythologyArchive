@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MythologyArchiveApp.EgyptianOption">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button 
+            Text="Back"
+            HorizontalOptions="Start"
+            FontSize="Small"
+            TextColor="White"
+            BackgroundColor="Black"
+            BorderColor="Blue"
+            BorderWidth="3"
+            Clicked="Back_Clicked"
+            />
+
+            <Label 
+            Text="Choose which Egyption Mythological Figure you'd like to see"
+            FontSize="32"
+            TextColor="White" 
+            VerticalTextAlignment="Center"
+            XAlign="Center"
+            />
+
+            <Button Text="Horus - God of War"
+            FontSize="Small"
+            TextColor="White"
+            BackgroundColor="Black"
+            BorderColor="Blue"
+            BorderWidth="10"
+            Clicked="Horus_Clicked"                
+            />
+
+            <Button Text="Set - God of Chaos"
+            FontSize="Small"
+            TextColor="White"
+            BackgroundColor="Black"
+            BorderColor="Blue"
+            BorderWidth="10"
+            
+            />
+
+            <Button Text="Isis - Goddess of Magic"
+            FontSize="Small"
+            TextColor="White"
+            BackgroundColor="Black"
+            BorderColor="Blue"
+            BorderWidth="10"
+            Clicked="Isis_Clicked"                 
+            />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MythologyArchiveApp.GreekOption">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Button 
+            Text="Back"
+            HorizontalOptions="Start"
+            FontSize="Small"
+            TextColor="White"
+            BackgroundColor="Black"
+            BorderColor="Blue"
+            BorderWidth="3"
+            Clicked="Back_Clicked"
+            />
+
+            <Label 
+            Text="Choose which Greek Mythological Figure you'd like to see"
+            FontSize="32"
+            TextColor="White" 
+            VerticalTextAlignment="Center"
+            XAlign="Center"/>
+
+            <Button Text="Zeus - God of the Sky"
+            FontSize="Small"
+            TextColor="White"
+            BackgroundColor="Black"
+            BorderColor="Blue"
+            BorderWidth="10"
+            />
+
+            <Button Text="Poseidon - God of the Sea"
+            FontSize="Small"
+            TextColor="White"
+            BackgroundColor="Black"
+            BorderColor="Blue"
+            BorderWidth="10"
+            />
+
+            <Button Text="Hades - God of the Dead"
+            FontSize="Small"
+            TextColor="White"
+            BackgroundColor="Black"
+            BorderColor="Blue"
+            BorderWidth="10"
+            />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

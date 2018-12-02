@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MythologyArchiveApp"
+             x:Class="MythologyArchiveApp.MainPage">
+
+    <StackLayout Spacing="20" x:Name="stckLayoutContent">
+
+        <Label 
+            Text="Choose Your Mythology" 
+            FontSize="35"
+            TextColor="White" 
+            VerticalTextAlignment="Center"
+            XAlign="Center"
+        />
+
+        <Button 
+            Text="Greek Mythology"
+            FontSize="Medium"
+            TextColor="White"
+            BackgroundColor="Black"
+            BorderColor="Blue"
+            BorderWidth="10"
+            Clicked="Greek_Clicked"
+            />
+
+        <Button 
+            Text="Norse Mythology"
+            FontSize="Medium"
+            TextColor="White"
+            BackgroundColor="Black"
+            BorderColor="Blue"
+            BorderWidth="10"                
+            Clicked="Norse_Clicked"
+            />
+
+        <Button 
+            Text="Egyptian Mythology"
+            FontSize="Medium"
+            TextColor="White"
+            BackgroundColor="Black"
+            BorderColor="Blue"
+            BorderWidth="10"  
+            Clicked="Egyptian_Clicked"
+            />
+
+
+    </StackLayout>
+
+</ContentPage>
