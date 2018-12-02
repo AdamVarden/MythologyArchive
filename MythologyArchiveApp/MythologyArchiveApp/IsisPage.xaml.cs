@@ -29,7 +29,7 @@ namespace MythologyArchiveApp
             string strFilename = "MythologyArchiveApp.Assets.Images.isis3.jpg";
 
             imageMain.Source = ImageSource.FromResource(strFilename, assembly);
-
+            
         }
     }
 }
