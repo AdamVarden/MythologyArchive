@@ -20,8 +20,12 @@ namespace MythologyArchiveApp
             SetupImagesOnPage();
 
         }
+        private async void Back_Clicked(object sender, EventArgs e)
+        {
 
+            await Navigation.PushAsync(new EgyptianOption());
 
+        }
 
         private void SetupImagesOnPage()
         {
@@ -29,7 +33,6 @@ namespace MythologyArchiveApp
             string strFilename = "MythologyArchiveApp.Assets.Images.isis3.jpg";
 
             isisImage.Source = ImageSource.FromResource(strFilename, assembly);
-            
         }
     }
 }
