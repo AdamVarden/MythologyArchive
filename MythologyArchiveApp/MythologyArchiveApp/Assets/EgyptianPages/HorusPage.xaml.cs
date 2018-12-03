@@ -18,7 +18,12 @@ namespace MythologyArchiveApp.Assets.EgyptianPages
             SetupImagesOnPage();
 
         }
+        private async void Back_Clicked(object sender, EventArgs e)
+        {
 
+            await Navigation.PushAsync(new EgyptianOption());
+
+        }
         private void SetupImagesOnPage()
         {
             var assembly = typeof(IsisPage);

@@ -1,13 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MythologyArchiveApp.Assets.EgyptianPages.HorusPage">
+             x:Class="MythologyArchiveApp.Assets.EgyptianPages.HorusPage"
+             BackgroundColor="Black">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-            <Image x:Name="horusImage" Aspect="AspectFit" >
-            </Image>
-        </StackLayout>
-            </ScrollView>
+                
+                <Button 
+                    Text="Back"
+                    HorizontalOptions="Start"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="3"
+                    Clicked="Back_Clicked"
+                 />  
+                
+                <Label 
+                    Text="Horus" 
+                    TextColor="White" 
+                    FontSize="Large" 
+                    HorizontalOptions="Center"
+                 /> 
+                
+                <Image 
+                    x:Name="horusImage" 
+                    Aspect="AspectFit" >
+                </Image>
+                
+                <Label  
+                        Margin="20"
+                        TextColor="White" 
+                        Text="Horus is one of the most significant ancient Egyptian deities. He was worshipped from at least the late prehistoric Egypt until the Ptolemaic Kingdom and Roman Egypt. Different forms of Horus are recorded in history and these are treated as distinct gods by Egyptologists. These various forms may possibly be different perceptions of the same multi-layered deity in which certain attributes or syncretic relationships are emphasized, not necessarily in opposition but complementary to one another, consistent with how the Ancient Egyptians viewed the multiple facets of reality. He was most often depicted as a falcon, most likely a lanner falcon or peregrine falcon, or as a man with a falcon head.The earliest recorded form of Horus is the tutelary deity of Nekhen in Upper Egypt, who is the first known national god, specifically related to the ruling pharaoh who in time came to be regarded as a manifestation of Horus in life and Osiris in death. The most commonly encountered family relationship describes Horus as the son of Isis and Osiris, and he plays a key role in the Osiris myth as Osiris's heir and the rival to Set, the murderer of Osiris. In another tradition Hathor is regarded as his mother and sometimes as his wife. Horus served many functions, most notably being a god of kingship and the sky."
+                />                
+                
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
