@@ -7,45 +7,49 @@
         <StackLayout>
 
             <Button 
-            Text="Back"
-            HorizontalOptions="Start"
-            FontSize="Small"
-            TextColor="White"
-            BackgroundColor="Black"
-            BorderColor="Blue"
-            BorderWidth="3"
-            Clicked="Back_Clicked"
+                Text="Back"
+                HorizontalOptions="Start"
+                FontSize="Small"
+                TextColor="White"
+                BackgroundColor="Black"
+                BorderColor="Blue"
+                BorderWidth="3"
+                Clicked="Back_Clicked"
             />
 
             <Label 
-            Text="Choose which Greek Mythological Figure you'd like to see"
-            FontSize="32"
-            TextColor="White" 
-            VerticalTextAlignment="Center"
-            XAlign="Center"/>
-
-            <Button Text="Zeus - God of the Sky"
-            FontSize="Small"
-            TextColor="White"
-            BackgroundColor="Black"
-            BorderColor="Blue"
-            BorderWidth="10"
+                Text="Choose which Greek Mythological Figure you'd like to see"
+                FontSize="32"
+                TextColor="White" 
+                VerticalTextAlignment="Center"
+                XAlign="Center"
             />
 
-            <Button Text="Poseidon - God of the Sea"
-            FontSize="Small"
-            TextColor="White"
-            BackgroundColor="Black"
-            BorderColor="Blue"
-            BorderWidth="10"
+            <Button 
+                Text="Zeus - God of the Sky"
+                FontSize="Small"
+                TextColor="White"
+                BackgroundColor="Black"
+                BorderColor="Blue"
+                BorderWidth="10"
             />
 
-            <Button Text="Hades - God of the Dead"
-            FontSize="Small"
-            TextColor="White"
-            BackgroundColor="Black"
-            BorderColor="Blue"
-            BorderWidth="10"
+            <Button 
+                Text="Poseidon - God of the Sea"
+                FontSize="Small"
+                TextColor="White"
+                BackgroundColor="Black"
+                BorderColor="Blue"
+                BorderWidth="10"
+            />
+
+            <Button 
+                Text="Hades - God of the Dead"
+                FontSize="Small"
+                TextColor="White"
+                BackgroundColor="Black"
+                BorderColor="Blue"
+                BorderWidth="10"
             />
 
         </StackLayout>

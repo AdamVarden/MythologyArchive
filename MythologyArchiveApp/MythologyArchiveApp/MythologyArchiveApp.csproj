@@ -13,12 +13,24 @@
     <None Remove="Assets\EgyptianImages\horus.png" />
     <None Remove="Assets\EgyptianImages\isis.png" />
     <None Remove="Assets\EgyptianImages\set.png" />
+    <None Remove="Assets\GreekImages\hades.jpg" />
+    <None Remove="Assets\GreekImages\poseidon.jpg" />
+    <None Remove="Assets\GreekImages\zeus.JPG" />
+    <None Remove="Assets\NorseImages\loki.jpg" />
+    <None Remove="Assets\NorseImages\odin.jpg" />
+    <None Remove="Assets\NorseImages\thor.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Assets\EgyptianImages\horus.png" />
     <EmbeddedResource Include="Assets\EgyptianImages\isis.png" />
     <EmbeddedResource Include="Assets\EgyptianImages\set.png" />
+    <EmbeddedResource Include="Assets\GreekImages\hades.jpg" />
+    <EmbeddedResource Include="Assets\GreekImages\poseidon.jpg" />
+    <EmbeddedResource Include="Assets\GreekImages\zeus.JPG" />
+    <EmbeddedResource Include="Assets\NorseImages\loki.jpg" />
+    <EmbeddedResource Include="Assets\NorseImages\odin.jpg" />
+    <EmbeddedResource Include="Assets\NorseImages\thor.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -48,8 +60,6 @@
 
   <ItemGroup>
     <Folder Include="Assets\GreekPages\" />
-    <Folder Include="Assets\GreekImages\" />
-    <Folder Include="Assets\NorseImages\" />
     <Folder Include="Assets\NorsePages\" />
   </ItemGroup>
 </Project>

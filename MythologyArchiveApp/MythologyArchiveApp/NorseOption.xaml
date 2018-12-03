@@ -7,48 +7,48 @@
         <StackLayout>
 
             <Button 
-            Text="Back"
-            HorizontalOptions="Start"
-            FontSize="Small"
-            TextColor="White"
-            BackgroundColor="Black"
-            BorderColor="Blue"
-            BorderWidth="3"
-            Clicked="Back_Clicked"
+                Text="Back"
+                HorizontalOptions="Start"
+                FontSize="Small"
+                TextColor="White"
+                BackgroundColor="Black"
+                BorderColor="Blue"
+                BorderWidth="3"
+                Clicked="Back_Clicked"
             />
-
+            
             <Label 
-            Text="Choose which Norse Mythological Figure you'd like to see"
-            FontSize="32"
-            TextColor="White" 
-            VerticalTextAlignment="Center"
-            XAlign="Center"/>
+                Text="Choose which Norse Mythological Figure you'd like to see"
+                FontSize="32"
+                TextColor="White" 
+                VerticalTextAlignment="Center"
+                XAlign="Center"/>
 
             <Button 
-            Text="Odin - Ruler of the Gods"
-            FontSize="Small"
-            TextColor="White"
-            BackgroundColor="Black"
-            BorderColor="Blue"
-            BorderWidth="10"
+                Text="Odin - Ruler of the Gods"
+                FontSize="Small"
+                TextColor="White"
+                BackgroundColor="Black"
+                BorderColor="Blue"
+                BorderWidth="10"
             />
 
             <Button 
-            Text="Loki - God of Mischief"
-            FontSize="Small"
-            TextColor="White"
-            BackgroundColor="Black"
-            BorderColor="Blue"
-            BorderWidth="10"
+                Text="Loki - God of Mischief"
+                FontSize="Small"
+                TextColor="White"
+                BackgroundColor="Black"
+                BorderColor="Blue"
+                BorderWidth="10"
             />
 
             <Button 
-            Text="Thor - God of the Thunder"
-            FontSize="Small"
-            TextColor="White"
-            BackgroundColor="Black"
-            BorderColor="Blue"
-            BorderWidth="10"
+                Text="Thor - God of the Thunder"
+                FontSize="Small"
+                TextColor="White"
+                BackgroundColor="Black"
+                BorderColor="Blue"
+                BorderWidth="10"
             />
 
         </StackLayout>
