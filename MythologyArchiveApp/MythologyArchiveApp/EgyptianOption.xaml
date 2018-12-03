@@ -39,6 +39,7 @@
             BackgroundColor="Black"
             BorderColor="Blue"
             BorderWidth="10"
+            Clicked="Set_Clicked"                 
             
             />
 

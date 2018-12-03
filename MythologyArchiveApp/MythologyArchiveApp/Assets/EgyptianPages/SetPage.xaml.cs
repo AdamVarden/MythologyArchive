@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace MythologyArchiveApp.Assets.EgyptianPages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class HorusPage : ContentPage
+	public partial class SetPage : ContentPage
 	{
-		public HorusPage ()
+		public SetPage ()
 		{
 			InitializeComponent ();
             SetupImagesOnPage();
@@ -26,10 +26,10 @@ namespace MythologyArchiveApp.Assets.EgyptianPages
         }
         private void SetupImagesOnPage()
         {
-            var assembly = typeof(HorusPage);
-            string strFilename = "MythologyArchiveApp.Assets.EgyptianImages.horus.png";
+            var assembly = typeof(SetPage);
+            string strFilename = "MythologyArchiveApp.Assets.EgyptianImages.set.png";
 
-            horusImage.Source = ImageSource.FromResource(strFilename, assembly);
+            setImage.Source = ImageSource.FromResource(strFilename, assembly);
 
         }
     }

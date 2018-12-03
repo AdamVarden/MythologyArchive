@@ -33,5 +33,10 @@ namespace MythologyArchiveApp
         {
             await Navigation.PushAsync(new IsisPage());
         }
+
+        private async void Set_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Assets.EgyptianPages.SetPage());
+        }
     }
 }
