@@ -31,6 +31,7 @@
                 BackgroundColor="Black"
                 BorderColor="Blue"
                 BorderWidth="10"
+
             />
 
             <Button 
@@ -40,6 +41,8 @@
                 BackgroundColor="Black"
                 BorderColor="Blue"
                 BorderWidth="10"
+                Clicked="Loki_Clicked"
+                
             />
 
             <Button 

@@ -14,7 +14,23 @@ namespace MythologyArchiveApp.Assets.NorsePages
 	{
 		public LokiPage ()
 		{
-			InitializeComponent ();
-		}
-	}
+			InitializeComponent();
+            SetupImagesOnLokiPage();
+
+        }
+        private void SetupImagesOnLokiPage()
+        {
+            var assembly = typeof(LokiPage);
+            string strFilename = "MythologyArchiveApp.Assets.NorseImages.loki.jpg";
+
+            lokiImage.Source = ImageSource.FromResource(strFilename, assembly);
+            
+        }
+        private async void Back_Clicked(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new EgyptianOption());
+
+        }
+    }
 }

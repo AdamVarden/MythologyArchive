@@ -3,10 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MythologyArchiveApp"
              x:Class="MythologyArchiveApp.MainPage"
+             BackgroundColor="Black"
 >
-
+    
     <StackLayout Spacing="20" x:Name="stckLayoutContent">
-
+        
         <Label 
             Text="Choose Your Mythology" 
             FontSize="35"

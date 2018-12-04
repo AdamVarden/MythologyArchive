@@ -5,8 +5,8 @@
              BackgroundColor="Black">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
-
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                
                 <Button 
                     Text="Back"
                     HorizontalOptions="Start"

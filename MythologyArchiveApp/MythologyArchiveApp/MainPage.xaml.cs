@@ -12,11 +12,10 @@ namespace MythologyArchiveApp
         public MainPage()
         {
             InitializeComponent();
-
         }
+
         private async void Greek_Clicked(object sender, EventArgs e)
         {
-
             await Navigation.PushAsync(new GreekOption());
 
         }
