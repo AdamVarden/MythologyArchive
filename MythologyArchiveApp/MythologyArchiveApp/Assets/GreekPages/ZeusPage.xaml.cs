@@ -14,7 +14,27 @@ namespace MythologyArchiveApp.Assets.GreekPages
 	{
 		public ZeusPage ()
 		{
-			InitializeComponent ();
-		}
-	}
+            InitializeComponent();
+            //Display Image of Zeus
+            SetupImagesOnZeusPage();
+        }
+
+        //Getting and setting the Zeus image
+        private void SetupImagesOnZeusPage()
+        {
+            //Variables
+            var assembly = typeof(ZeusPage);
+            string pathway = "MythologyArchiveApp.Assets.GreekImages.zeus.JPG";
+
+            //Getting and setting the image
+            zeusImage.Source = ImageSource.FromResource(pathway, assembly);
+
+        }
+
+        //Brings you back to GreekOption
+        private async void Back_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GreekOption());
+        }
+    }
 }

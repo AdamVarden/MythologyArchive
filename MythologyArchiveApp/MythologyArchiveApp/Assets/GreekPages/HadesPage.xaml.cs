@@ -15,17 +15,18 @@ namespace MythologyArchiveApp.Assets.GreekPages
 		public HadesPage ()
 		{
 			InitializeComponent ();
-            //Display Image of Loki
+            //Display Image of Hades
             SetupImagesOnHadesPage();
         }
 
-        //Getting and setting the Loki image
+        //Getting and setting the Hades image
         private void SetupImagesOnHadesPage()
         {
             //Variables
             var assembly = typeof(HadesPage);
             string pathway = "MythologyArchiveApp.Assets.GreekImages.hades.jpg";
 
+            //Getting and setting the image
             hadesImage.Source = ImageSource.FromResource(pathway, assembly);
 
         }
@@ -33,7 +34,7 @@ namespace MythologyArchiveApp.Assets.GreekPages
         //Brings you back to GreekOption
         private async void Back_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new NorseOption());
+            await Navigation.PushAsync(new GreekOption());
         }
     }
 }

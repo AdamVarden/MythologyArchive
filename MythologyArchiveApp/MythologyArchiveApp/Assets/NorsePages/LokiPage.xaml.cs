@@ -27,6 +27,7 @@ namespace MythologyArchiveApp.Assets.NorsePages
             var assembly = typeof(LokiPage);
             string pathway = "MythologyArchiveApp.Assets.NorseImages.loki.jpg";
 
+            //Getting and setting the image
             lokiImage.Source = ImageSource.FromResource(pathway, assembly);
             
         }

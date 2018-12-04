@@ -1,12 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MythologyArchiveApp.Assets.GreekPages.PoseidonPage">
+             x:Class="MythologyArchiveApp.Assets.GreekPages.PoseidonPage"
+             BackgroundColor="Black">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <!--Button to go back to GreekOptions -->
+                <Button 
+                    Text="Back"
+                    HorizontalOptions="Start"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="3"
+                    Clicked="Back_Clicked"
+                 />
+
+                <!--Ttile for Poseidon-->
+                <Label 
+                    Text="Poseidon" 
+                    TextColor="White" 
+                    FontSize="Large" 
+                    HorizontalOptions="Center"
+                 />
+
+                <!--Image of Poseidon -->
+                <Image 
+                    x:Name="poseidonImage" 
+                    Aspect="AspectFit" >
+                </Image>
+
+                <!--Text of Information -->
+                <Label  
+                    Margin="20"
+                    TextColor="White"
+                    Text="Poseidon was god of the sea, earthquakes, storms, and horses and is considered one of the most bad-tempered, moody and greedy Olympian gods. He was known to be vengeful when insulted. He is the son of Cronus and Rhea and was swallowed by his father along with Hades, Demeter, Hestia and Hera. However, in some folklore stories it is believed that Poseidon, like Zeus, was not swallowed by Cronus because his mother Rhea who concealed him among a flock of lambs and pretended to have given birth to a colt, which was devoured by Cronus instead. After the gods defeated the Titans, the world was divided into three and Zeus, Hades and Poseidon decided which they would rule. Zeus chose the skies, Hades the underworld, and Poseidon the seas. Poseidon was said to have had many lovers of both sexes. His consort was Amphitrite, a nymph and ancient sea-goddess, daughter of Nereus and Doris. Together they had a son named Triton, a merman."
+                />
+
+                <!--End of stacklayout -->
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

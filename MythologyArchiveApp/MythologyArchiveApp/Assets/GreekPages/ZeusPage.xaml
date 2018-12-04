@@ -1,12 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MythologyArchiveApp.Assets.GreekPages.ZeusPage">
+             x:Class="MythologyArchiveApp.Assets.GreekPages.ZeusPage"
+             BackgroundColor="Black">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <!--Button to go back to GreekOptions -->
+                <Button 
+                    Text="Back"
+                    HorizontalOptions="Start"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="3"
+                    Clicked="Back_Clicked"
+                 />
+
+                <!--Ttile for Zeus-->
+                <Label 
+                    Text="Zeus" 
+                    TextColor="White" 
+                    FontSize="Large" 
+                    HorizontalOptions="Center"
+                 />
+
+                <!--Image of Zeus -->
+                <Image 
+                    x:Name="zeusImage" 
+                    Aspect="AspectFit" >
+                </Image>
+
+                <!--Text of Information -->
+                <Label  
+                    Margin="20"
+                    TextColor="White"
+                    Text="Zeus  is the sky and thunder god in ancient Greek religion, who rules as king of the gods of Mount Olympus. His name is cognate with the first element of his Roman equivalent Jupiter. His mythologies and powers are similar, though not identical, to those of Indo-European deities such as Indra, Jupiter, Perkūnas, Perun, Thor, and Odin.Zeus is the child of Cronus and Rhea, the youngest of his siblings to be born, though sometimes reckoned the eldest as the others required disgorging from Cronus's stomach. In most traditions, he is married to Hera, by whom he is usually said to have fathered Ares, Hebe, and Hephaestus.Zeus was also infamous for his erotic escapades. These resulted in many godly and heroic offspring, including Athena, Apollo, Artemis, Hermes, Persephone, Dionysus, Perseus, Heracles, Helen of Troy, Minos, and the Muses. Along with Hades and Poseidon, Zeus shared the rule of the world and became king of Olympus as the children of Cronus were filled with admiration for their noble brother and sided with him against their unjust father."
+                />
+
+                <!--End of stacklayout -->
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
