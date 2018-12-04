@@ -33,7 +33,7 @@
             Clicked="Horus_Clicked"                
             />
 
-            <Button Text="Set - God of Chaos"
+            <Button Text="Set - God of the Sky"
             FontSize="Small"
             TextColor="White"
             BackgroundColor="Black"

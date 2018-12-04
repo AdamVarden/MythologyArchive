@@ -21,9 +21,9 @@ namespace MythologyArchiveApp.Assets.NorsePages
         private void SetupImagesOnLokiPage()
         {
             var assembly = typeof(LokiPage);
-            string strFilename = "MythologyArchiveApp.Assets.NorseImages.loki.jpg";
+            string pathway = "MythologyArchiveApp.Assets.NorseImages.loki.jpg";
 
-            lokiImage.Source = ImageSource.FromResource(strFilename, assembly);
+            lokiImage.Source = ImageSource.FromResource(pathway, assembly);
             
         }
         private async void Back_Clicked(object sender, EventArgs e)

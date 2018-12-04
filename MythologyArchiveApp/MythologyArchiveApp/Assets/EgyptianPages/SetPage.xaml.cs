@@ -27,9 +27,9 @@ namespace MythologyArchiveApp.Assets.EgyptianPages
         private void SetupImagesOnSetPage()
         {
             var assembly = typeof(SetPage);
-            string strFilename = "MythologyArchiveApp.Assets.EgyptianImages.set.png";
+            string pathway = "MythologyArchiveApp.Assets.EgyptianImages.set.png";
 
-            setImage.Source = ImageSource.FromResource(strFilename, assembly);
+            setImage.Source = ImageSource.FromResource(pathway, assembly);
 
         }
     }

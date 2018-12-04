@@ -21,9 +21,9 @@ namespace MythologyArchiveApp.Assets.NorsePages
         private void SetupImagesOnOdinPage()
         {
             var assembly = typeof(OdinPage);
-            string strFilename = "MythologyArchiveApp.Assets.NorseImages.odin.jpg";
+            string pathway = "MythologyArchiveApp.Assets.NorseImages.odin.jpg";
 
-            odinImage.Source = ImageSource.FromResource(strFilename, assembly);
+            odinImage.Source = ImageSource.FromResource(pathway, assembly);
 
         }
         private async void Back_Clicked(object sender, EventArgs e)

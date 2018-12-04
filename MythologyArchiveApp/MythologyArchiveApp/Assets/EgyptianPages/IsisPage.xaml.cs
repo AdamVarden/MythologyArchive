@@ -30,9 +30,9 @@ namespace MythologyArchiveApp
         private void SetupImagesOnIsisPage()
         {
             var assembly = typeof(IsisPage);
-            string strFilename = "MythologyArchiveApp.Assets.EgyptianImages.isis.png";
+            string pathway = "MythologyArchiveApp.Assets.EgyptianImages.isis.png";
 
-            isisImage.Source = ImageSource.FromResource(strFilename, assembly);
+            isisImage.Source = ImageSource.FromResource(pathway, assembly);
         }
     }
 }

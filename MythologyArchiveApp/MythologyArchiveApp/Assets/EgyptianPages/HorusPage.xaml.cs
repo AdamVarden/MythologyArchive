@@ -27,9 +27,9 @@ namespace MythologyArchiveApp.Assets.EgyptianPages
         private void SetupImagesOnHorusPage()
         {
             var assembly = typeof(HorusPage);
-            string strFilename = "MythologyArchiveApp.Assets.EgyptianImages.horus.png";
+            string pathway = "MythologyArchiveApp.Assets.EgyptianImages.horus.png";
 
-            horusImage.Source = ImageSource.FromResource(strFilename, assembly);
+            horusImage.Source = ImageSource.FromResource(pathway, assembly);
 
         }
     }

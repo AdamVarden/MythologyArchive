@@ -14,7 +14,23 @@ namespace MythologyArchiveApp.Assets.NorsePages
 	{
 		public ThorPage ()
 		{
-			InitializeComponent ();
-		}
-	}
+			InitializeComponent();
+            SetupImagesOnThorPage();
+
+        }
+        private void SetupImagesOnThorPage()
+        {
+            var assembly = typeof(ThorPage);
+            string pathway = "MythologyArchiveApp.Assets.NorseImages.thor.jpg";
+
+            thorImage.Source = ImageSource.FromResource(pathway, assembly);
+
+        }
+        private async void Back_Clicked(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new NorseOption());
+
+        }
+    }
 }

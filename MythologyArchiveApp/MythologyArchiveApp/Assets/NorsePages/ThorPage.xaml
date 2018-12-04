@@ -1,12 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MythologyArchiveApp.Assets.NorsePages.ThorPage">
+             x:Class="MythologyArchiveApp.Assets.NorsePages.ThorPage"
+             BackgroundColor="Black">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+
+                <Button 
+                    Text="Back"
+                    HorizontalOptions="Start"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="3"
+                    Clicked="Back_Clicked"
+                 />
+
+                <Label 
+                    Text="Thor" 
+                    TextColor="White" 
+                    FontSize="Large" 
+                    HorizontalOptions="Center"
+                    
+                 />
+
+                <Image 
+                    x:Name="thorImage" 
+                    Aspect="AspectFit" >
+                </Image>
+
+                <Label  
+                    Margin="20"
+                    TextColor="White"
+                    Text="Thor is a hammer-wielding god associated with thunder, lightning, storms, oak trees, strength and the protection of mankind.His wife was Sif, a goddess also linked to fertility. He had a red beard and eyes, he was huge in size, he had an insatiable appetite and not much wit. Thor was the strongest of all gods and men according to The Prose Edda.Thor had a hammer, Mjollnir, a deadly weapon also associated with lightning and thunder, which was built by the dwarves. He also had iron gloves and a belt named Megingjard that doubled Thor's strength once buckled on. As a weather god he was associated with the fertility of the earth. He was also regarded as a guide for those travelling over the sea because of his power over storms and wind.Norse mythology claims that Thor, along with most of the gods, will eventually die during a final disaster. It is said that during the end of the world (known as Ragnarok in Norse mythology), Thor will fight against the World Serpent.The god slays the serpent, but he will then die as well, drowned in the beast's poison."
+                    
+                />
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
