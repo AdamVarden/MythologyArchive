@@ -1,12 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MythologyArchiveApp.Assets.GreekPages.HadesPage">
+             x:Class="MythologyArchiveApp.Assets.GreekPages.HadesPage"
+             BackgroundColor="Black">
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <!--Button to go back to GreekOptions -->
+                <Button 
+                    Text="Back"
+                    HorizontalOptions="Start"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="3"
+                    Clicked="Back_Clicked"
+                 />
+
+                <!--Ttile for Hades-->
+                <Label 
+                    Text="Hades" 
+                    TextColor="White" 
+                    FontSize="Large" 
+                    HorizontalOptions="Center"
+                 />
+
+                <!--Image of Hades -->
+                <Image 
+                    x:Name="hadesImage" 
+                    Aspect="AspectFit" >
+                </Image>
+
+                <!--Text of Information -->
+                <Label  
+                    Margin="20"
+                    TextColor="White"
+                    Text="Hades, in the ancient Greek religion and myth, is the god of the dead and the king of the underworld, with which his name became synonymous. Hades was the eldest son of Cronus and Rhea, although the last son regurgitated by his father. He and his brothers, Zeus and Poseidon, defeated their father's generation of gods, the Titans, and claimed rulership over the cosmos. Hades received the underworld, Zeus the sky, and Poseidon the sea, with the solid earth, long the province of Gaia, available to all three concurrently. Hades was often portrayed with his three-headed guard dog Cerberus.Hades was the first-born son of the Titans Cronus and Rhea. He had three older sisters, Hestia, Demeter, and Hera, as well as a younger brother, Poseidon, all of whom had been swallowed whole by their father as soon as they were born. Zeus was the youngest child and through the machinations of their mother, Rhea, he was the only one that had escaped this fate. Upon reaching adulthood, Zeus managed to force his father to disgorge his siblings. After their release, the six younger gods, along with allies they managed to gather, challenged the elder gods for power in the Titanomachy, a divine war. The war lasted for ten years and ended with the victory of the younger gods."
+                />
+
+                <!--End of stacklayout -->
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

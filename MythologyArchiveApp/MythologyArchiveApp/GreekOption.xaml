@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-
+                <!--Brings you back to MainPage-->
                 <Button 
                     Text="Back"
                     HorizontalOptions="Start"
@@ -25,7 +25,8 @@
                     VerticalTextAlignment="Center"
                     XAlign="Center"
                 />
-
+                
+                <!--Brings you to Zeus-->
                 <Button 
                     Text="Zeus - God of the Sky"
                     FontSize="Small"
@@ -33,8 +34,10 @@
                     BackgroundColor="Black"
                     BorderColor="Blue"
                     BorderWidth="10"
+                    Clicked="Zeus_Clicked"
                 />
-
+                
+                <!--Brings you to Poseidon-->
                 <Button 
                     Text="Poseidon - God of the Sea"
                     FontSize="Small"
@@ -42,8 +45,10 @@
                     BackgroundColor="Black"
                     BorderColor="Blue"
                     BorderWidth="10"
+                    Clicked="Poseidon_Clicked"
                 />
 
+                <!--Brings you to Hades-->
                 <Button 
                     Text="Hades - God of the Dead"
                     FontSize="Small"
@@ -51,8 +56,10 @@
                     BackgroundColor="Black"
                     BorderColor="Blue"
                     BorderWidth="10"
+                    Clicked="Hades_Clicked"
                 />
-
+                
+            <!--End of stacklayout-->
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
