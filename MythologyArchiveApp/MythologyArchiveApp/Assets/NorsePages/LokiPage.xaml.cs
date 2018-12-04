@@ -29,7 +29,7 @@ namespace MythologyArchiveApp.Assets.NorsePages
         private async void Back_Clicked(object sender, EventArgs e)
         {
 
-            await Navigation.PushAsync(new EgyptianOption());
+            await Navigation.PushAsync(new NorseOption());
 
         }
     }

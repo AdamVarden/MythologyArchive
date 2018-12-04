@@ -30,5 +30,19 @@ namespace MythologyArchiveApp
             await Navigation.PushAsync(new Assets.NorsePages.LokiPage());
 
         }
+
+        private async void Odin_Clicked(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new Assets.NorsePages.OdinPage());
+
+        }
+
+        private async void Thor_Clicked(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new Assets.NorsePages.ThorPage());
+
+        }
     }
 }

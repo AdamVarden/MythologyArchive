@@ -31,6 +31,7 @@
                 BackgroundColor="Black"
                 BorderColor="Blue"
                 BorderWidth="10"
+                Clicked="Odin_Clicked"
 
             />
 
@@ -44,7 +45,7 @@
                 Clicked="Loki_Clicked"
                 
             />
-
+            
             <Button 
                 Text="Thor - God of the Thunder"
                 FontSize="Small"
@@ -52,6 +53,7 @@
                 BackgroundColor="Black"
                 BorderColor="Blue"
                 BorderWidth="10"
+                Clicked="Thor_Clicked"
             />
 
         </StackLayout>

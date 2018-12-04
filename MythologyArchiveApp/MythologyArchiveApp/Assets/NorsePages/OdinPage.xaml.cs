@@ -15,6 +15,22 @@ namespace MythologyArchiveApp.Assets.NorsePages
 		public OdinPage ()
 		{
 			InitializeComponent ();
-		}
-	}
+            SetupImagesOnOdinPage();
+
+        }
+        private void SetupImagesOnOdinPage()
+        {
+            var assembly = typeof(OdinPage);
+            string strFilename = "MythologyArchiveApp.Assets.NorseImages.odin.jpg";
+
+            odinImage.Source = ImageSource.FromResource(strFilename, assembly);
+
+        }
+        private async void Back_Clicked(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new NorseOption());
+
+        }
+    }
 }

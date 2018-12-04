@@ -1,12 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MythologyArchiveApp.Assets.NorsePages.OdinPage">
+             x:Class="MythologyArchiveApp.Assets.NorsePages.OdinPage"
+             BackgroundColor="Black">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+
+                <Button 
+                    Text="Back"
+                    HorizontalOptions="Start"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="3"
+                    Clicked="Back_Clicked"
+                 />
+
+                <Label 
+                    Text="Odin" 
+                    TextColor="White" 
+                    FontSize="Large" 
+                    HorizontalOptions="Center"
+                    
+                 />
+
+                <Image 
+                    x:Name="odinImage" 
+                    Aspect="AspectFit" >
+                </Image>
+
+                <Label  
+                    Margin="20"
+                    TextColor="White"
+                    Text="In Germanic mythology, Odin is a widely revered god. In Norse mythology, from which stems most surviving information about the god, Odin is associated with wisdom, healing, death, royalty, the gallows, knowledge, battle, sorcery, poetry, frenzy, and the runic alphabet, and is the husband of the goddess Frigg. Odin is the most powerful God in Asgard and he is the chief of the Aesir, in Norse mythology. Odin is sometimes called the all-father or the wanderer, he has, in fact, many names, because he has taken many shapes on various occasions.The modern word Wednesday is named after Odin and it comes from the Germanic word Wotan which means Odin so Wednesday is Odin's day. Odin only has one eye that is because he sacrificed one eye to Mimir this is was the price to take a drink from his well, from Mimir's Well and because of this Odin gained the wisdom of the Mimir, and Odin became the wisest of all the Gods and Goddesses in Asgard."
+                    
+                />
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
