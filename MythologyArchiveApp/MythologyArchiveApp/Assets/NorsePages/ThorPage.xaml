@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-
+                <!--Button for going back a page -->
                 <Button 
                     Text="Back"
                     HorizontalOptions="Start"
@@ -17,7 +17,7 @@
                     BorderWidth="3"
                     Clicked="Back_Clicked"
                  />
-
+                <!--Title label above thors image  -->
                 <Label 
                     Text="Thor" 
                     TextColor="White" 
@@ -25,12 +25,12 @@
                     HorizontalOptions="Center"
                     
                  />
-
+                <!--Image of thor -->
                 <Image 
                     x:Name="thorImage" 
                     Aspect="AspectFit" >
                 </Image>
-
+                <!--Information about thor -->
                 <Label  
                     Margin="20"
                     TextColor="White"

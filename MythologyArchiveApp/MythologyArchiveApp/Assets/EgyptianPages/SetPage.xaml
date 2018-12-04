@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout >
-                
+                <!--Button to go back a page -->
                 <Button 
                     Text="Back"
                     HorizontalOptions="Start"
@@ -17,26 +17,28 @@
                     BorderWidth="3"
                     Clicked="Back_Clicked"
                  />
-
+                
+                <!--Title for Set -->
                 <Label 
                     Text="Set" 
                     TextColor="White" 
                     FontSize="Large" 
                     HorizontalOptions="Center"
-                    
                  />
-
+                
+                <!--Set's image -->
                 <Image 
                     x:Name="setImage" 
                     Aspect="AspectFit" >
                 </Image>
 
+                <!--Text about Set -->
                 <Label  
                         Margin="20"
                         TextColor="White" 
                         Text="The Egyptians saw Set as the god of darkness and chaos. He was also the lord of the desert. Seth became the god of the unclean and an opponent of several gods. Opposing priests destroyed most of Seth's statuary. In Ancient Greek, the god's name is given as Sēth (Σήθ). Set had a positive role where he accompanies Ra on his solar boat to repel Apep, the serpent of Chaos.Set had a vital role as a reconciled combatant.He was the personification of drought. As lord of the desert and drought, Seth was an opponent of everything that gave life. He was lord of the red (desert) land where he was the balance to Horus' role as lord of the black (soil) land. In Egyptian mythology, Set is portrayed as the usurper who killed and mutilated his own brother Osiris. Osiris' wife Isis reassembled (remembered) Osiris' corpse and resurrected her dead husband long enough to conceive his son and heir Horus. Horus sought revenge upon Set, and the myths describe their conflicts. This Osiris myth is a prominent theme in Egyptian mythology."
                 />
-
+            <!--End of stacklayout -->
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

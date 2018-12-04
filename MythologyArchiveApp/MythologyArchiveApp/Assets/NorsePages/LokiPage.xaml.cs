@@ -15,22 +15,26 @@ namespace MythologyArchiveApp.Assets.NorsePages
 		public LokiPage ()
 		{
 			InitializeComponent();
+            //Display Image of Loki
             SetupImagesOnLokiPage();
 
         }
+
+        //Getting and setting the Loki image
         private void SetupImagesOnLokiPage()
         {
+            //Variables
             var assembly = typeof(LokiPage);
             string pathway = "MythologyArchiveApp.Assets.NorseImages.loki.jpg";
 
             lokiImage.Source = ImageSource.FromResource(pathway, assembly);
             
         }
+
+        //Brings you back to NorseOption
         private async void Back_Clicked(object sender, EventArgs e)
         {
-
             await Navigation.PushAsync(new NorseOption());
-
         }
     }
 }

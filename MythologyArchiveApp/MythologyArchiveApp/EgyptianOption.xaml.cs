@@ -17,6 +17,7 @@ namespace MythologyArchiveApp
             InitializeComponent();
         }
 
+        //Linked to button to go back to the main page
         private async void Back_Clicked(object sender, EventArgs e)
         {
 
@@ -24,16 +25,19 @@ namespace MythologyArchiveApp
 
         }
 
+        //Linked to button to bring you to HorusPage
         private async void Horus_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Assets.EgyptianPages.HorusPage());
         }
 
+        //Linked to button to bring you to IsisPage
         private async void Isis_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new IsisPage());
         }
 
+        //Linked to button to bring you to SetPage
         private async void Set_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Assets.EgyptianPages.SetPage());

@@ -15,17 +15,21 @@ namespace MythologyArchiveApp.Assets.EgyptianPages
 		public SetPage ()
 		{
 			InitializeComponent ();
+            //Displays image
             SetupImagesOnSetPage();
 
         }
+
+        //Sends user back to EgyptianOption
         private async void Back_Clicked(object sender, EventArgs e)
         {
-
             await Navigation.PushAsync(new EgyptianOption());
-
         }
+
+        //Gets and sets image on Set Page
         private void SetupImagesOnSetPage()
         {
+            //Variables
             var assembly = typeof(SetPage);
             string pathway = "MythologyArchiveApp.Assets.EgyptianImages.set.png";
 

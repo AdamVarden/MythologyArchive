@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-
+                <!--Button to go back to NorseOptions -->
                 <Button 
                     Text="Back"
                     HorizontalOptions="Start"
@@ -17,27 +17,29 @@
                     BorderWidth="3"
                     Clicked="Back_Clicked"
                  />
-
+                
+                <!--Ttile for Loki-->
                 <Label 
                     Text="Loki" 
                     TextColor="White" 
                     FontSize="Large" 
                     HorizontalOptions="Center"
-                    
                  />
-
+                
+                <!--Image of Loki -->
                 <Image 
                     x:Name="lokiImage" 
                     Aspect="AspectFit" >
                 </Image>
 
+                <!--Text of Information -->
                 <Label  
                     Margin="20"
                     TextColor="White"
                     Text="Loki, in Norse mythology, a cunning trickster who had the ability to change his shape and sex. Although his father was the giant Fárbauti, he was included among the Aesir (a tribe of gods).Loki's relation with the gods varies by source; Loki sometimes assists the gods and sometimes behaves in a malicious manner towards them. Loki was represented as the companion of the great gods Odin and Thor, helping them with his clever plans but sometimes causing embarrassment and difficulty for them and himself. He also appeared as the enemy of the gods, entering their banquet uninvited and demanding their drink. He was the principal cause of the death of the god Balder. Loki was bound to a rock (by the entrails of one or more of his sons, according to some sources) as punishment, thus in many ways resembling the Greek figures Prometheus and Tantalus. Also like Prometheus, Loki is considered a god of fire."
-                    
                 />
-
+                
+            <!--End of stacklayout -->
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

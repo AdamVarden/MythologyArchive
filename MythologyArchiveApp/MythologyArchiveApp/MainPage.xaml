@@ -5,48 +5,50 @@
              x:Class="MythologyArchiveApp.MainPage"
              BackgroundColor="Black"
 >
-    
-    <StackLayout Spacing="20" x:Name="stckLayoutContent">
-        
-        <Label 
-            Text="Choose Your Mythology" 
-            FontSize="35"
-            TextColor="White" 
-            VerticalTextAlignment="Center"
-            XAlign="Center"
-        />
+    <ScrollView>
+        <StackLayout Spacing="20" x:Name="stckLayoutContent">
 
-        <Button 
-            Text="Greek Mythology"
-            FontSize="Medium"
-            TextColor="White"
-            BackgroundColor="Black"
-            BorderColor="Blue"
-            BorderWidth="10"
-            Clicked="Greek_Clicked"
+            <Label 
+                Text="Choose Your Mythology" 
+                FontSize="35"
+                TextColor="White" 
+                VerticalTextAlignment="Center"
+                XAlign="Center"
+            />
+            <!--Button to go to GreekOptions -->
+            <Button 
+                Text="Greek Mythology"
+                FontSize="Medium"
+                TextColor="White"
+                BackgroundColor="Black"
+                BorderColor="Blue"
+                BorderWidth="10"
+                Clicked="Greek_Clicked"
             />
 
-        <Button 
-            Text="Norse Mythology"
-            FontSize="Medium"
-            TextColor="White"
-            BackgroundColor="Black"
-            BorderColor="Blue"
-            BorderWidth="10"                
-            Clicked="Norse_Clicked"
+            <!--Button to go to NorseOptions -->
+            <Button 
+                Text="Norse Mythology"
+                FontSize="Medium"
+                TextColor="White"
+                BackgroundColor="Black"
+                BorderColor="Blue"
+                BorderWidth="10"                
+                Clicked="Norse_Clicked"
             />
 
-        <Button 
-            Text="Egyptian Mythology"
-            FontSize="Medium"
-            TextColor="White"
-            BackgroundColor="Black"
-            BorderColor="Blue"
-            BorderWidth="10"  
-            Clicked="Egyptian_Clicked"
+            <!--Button to go to EgyptianOptions -->
+            <Button 
+                Text="Egyptian Mythology"
+                FontSize="Medium"
+                TextColor="White"
+                BackgroundColor="Black"
+                BorderColor="Blue"
+                BorderWidth="10"  
+                Clicked="Egyptian_Clicked"
             />
 
-
-    </StackLayout>
-
+            <!--End of stackLayout -->
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

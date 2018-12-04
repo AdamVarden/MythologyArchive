@@ -4,58 +4,64 @@
              x:Class="MythologyArchiveApp.NorseOption"
               BackgroundColor="Black">
     <ContentPage.Content>
-        <StackLayout>
-
-            <Button 
-                Text="Back"
-                HorizontalOptions="Start"
-                FontSize="Small"
-                TextColor="White"
-                BackgroundColor="Black"
-                BorderColor="Blue"
-                BorderWidth="3"
-                Clicked="Back_Clicked"
+        <ScrollView>
+            <StackLayout>
+                <!--Button to go back -->
+                <Button 
+                    Text="Back"
+                    HorizontalOptions="Start"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="3"
+                    Clicked="Back_Clicked"
             />
-            
-            <Label 
-                Text="Choose which Norse Mythological Figure you'd like to see"
-                FontSize="32"
-                TextColor="White" 
-                VerticalTextAlignment="Center"
-                XAlign="Center"/>
+                <!--Label -->
+                <Label 
+                    Text="Choose which Norse Mythological Figure you'd like to see"
+                    FontSize="32"
+                    TextColor="White" 
+                    VerticalTextAlignment="Center"
+                    XAlign="Center"
+                    
+                />
+                <!--Button for choosing Odin -->
+                <Button 
+                    Text="Odin - Ruler of the Gods"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="10"
+                    Clicked="Odin_Clicked"
 
-            <Button 
-                Text="Odin - Ruler of the Gods"
-                FontSize="Small"
-                TextColor="White"
-                BackgroundColor="Black"
-                BorderColor="Blue"
-                BorderWidth="10"
-                Clicked="Odin_Clicked"
+                />
 
-            />
-
-            <Button 
-                Text="Loki - God of Mischief"
-                FontSize="Small"
-                TextColor="White"
-                BackgroundColor="Black"
-                BorderColor="Blue"
-                BorderWidth="10"
-                Clicked="Loki_Clicked"
+                <!--Button for choosing Loki -->
+                <Button 
+                    Text="Loki - God of Mischief"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="10"
+                    Clicked="Loki_Clicked"
                 
-            />
-            
-            <Button 
-                Text="Thor - God of the Thunder"
-                FontSize="Small"
-                TextColor="White"
-                BackgroundColor="Black"
-                BorderColor="Blue"
-                BorderWidth="10"
-                Clicked="Thor_Clicked"
-            />
+                />
 
-        </StackLayout>
+                <!--Button for choosing Thor -->
+                <Button 
+                    Text="Thor - God of the Thunder"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="10"
+                    Clicked="Thor_Clicked"
+                />
+             <!--End of stacklayout -->
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
