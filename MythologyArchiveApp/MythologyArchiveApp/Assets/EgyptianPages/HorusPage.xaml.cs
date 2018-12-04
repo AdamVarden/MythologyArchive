@@ -15,7 +15,7 @@ namespace MythologyArchiveApp.Assets.EgyptianPages
 		public HorusPage ()
 		{
 			InitializeComponent ();
-            SetupImagesOnPage();
+            SetupImagesOnHorusPage();
 
         }
         private async void Back_Clicked(object sender, EventArgs e)
@@ -24,7 +24,7 @@ namespace MythologyArchiveApp.Assets.EgyptianPages
             await Navigation.PushAsync(new EgyptianOption());
 
         }
-        private void SetupImagesOnPage()
+        private void SetupImagesOnHorusPage()
         {
             var assembly = typeof(HorusPage);
             string strFilename = "MythologyArchiveApp.Assets.EgyptianImages.horus.png";

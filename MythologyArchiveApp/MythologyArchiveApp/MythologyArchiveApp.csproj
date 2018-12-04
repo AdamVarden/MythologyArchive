@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Background\blackMarble.jpg" />
     <None Remove="Assets\EgyptianImages\horus.png" />
     <None Remove="Assets\EgyptianImages\isis.png" />
     <None Remove="Assets\EgyptianImages\set.png" />
@@ -22,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets\Background\blackMarble.jpg" />
     <EmbeddedResource Include="Assets\EgyptianImages\horus.png" />
     <EmbeddedResource Include="Assets\EgyptianImages\isis.png" />
     <EmbeddedResource Include="Assets\EgyptianImages\set.png" />
@@ -44,6 +46,15 @@
     <EmbeddedResource Update="Assets\EgyptianPages\SetPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Assets\NorsePages\LokiPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Assets\NorsePages\OdinPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Assets\NorsePages\ThorPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="EgyptianOption.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -60,6 +71,5 @@
 
   <ItemGroup>
     <Folder Include="Assets\GreekPages\" />
-    <Folder Include="Assets\NorsePages\" />
   </ItemGroup>
 </Project>

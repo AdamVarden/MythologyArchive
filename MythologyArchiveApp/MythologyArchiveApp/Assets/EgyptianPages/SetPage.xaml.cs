@@ -15,7 +15,7 @@ namespace MythologyArchiveApp.Assets.EgyptianPages
 		public SetPage ()
 		{
 			InitializeComponent ();
-            SetupImagesOnPage();
+            SetupImagesOnSetPage();
 
         }
         private async void Back_Clicked(object sender, EventArgs e)
@@ -24,7 +24,7 @@ namespace MythologyArchiveApp.Assets.EgyptianPages
             await Navigation.PushAsync(new EgyptianOption());
 
         }
-        private void SetupImagesOnPage()
+        private void SetupImagesOnSetPage()
         {
             var assembly = typeof(SetPage);
             string strFilename = "MythologyArchiveApp.Assets.EgyptianImages.set.png";

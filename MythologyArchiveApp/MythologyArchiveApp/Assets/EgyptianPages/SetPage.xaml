@@ -23,6 +23,7 @@
                     TextColor="White" 
                     FontSize="Large" 
                     HorizontalOptions="Center"
+                    
                  />
 
                 <Image 

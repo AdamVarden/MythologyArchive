@@ -12,6 +12,7 @@ namespace MythologyArchiveApp
         public MainPage()
         {
             InitializeComponent();
+
         }
         private async void Greek_Clicked(object sender, EventArgs e)
         {
@@ -30,5 +31,6 @@ namespace MythologyArchiveApp
             await Navigation.PushAsync(new EgyptianOption());
 
         }
+
     }
 }

@@ -17,7 +17,7 @@ namespace MythologyArchiveApp
         public IsisPage()
         {
             InitializeComponent();
-            SetupImagesOnPage();
+            SetupImagesOnIsisPage();
 
         }
         private async void Back_Clicked(object sender, EventArgs e)
@@ -27,7 +27,7 @@ namespace MythologyArchiveApp
 
         }
 
-        private void SetupImagesOnPage()
+        private void SetupImagesOnIsisPage()
         {
             var assembly = typeof(IsisPage);
             string strFilename = "MythologyArchiveApp.Assets.EgyptianImages.isis.png";
