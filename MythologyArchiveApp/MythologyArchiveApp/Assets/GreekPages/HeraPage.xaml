@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MythologyArchiveApp.Assets.GreekPages.HeraPage"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!--Button to go back to GreekOptions -->
+                <Button 
+                    Text="Back"
+                    HorizontalOptions="Start"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="3"
+                    Clicked="Back_Clicked"
+                 />
+
+                <!--Ttile for Hera-->
+                <Label 
+                    Text="Hera" 
+                    TextColor="White" 
+                    FontSize="Large" 
+                    HorizontalOptions="Center"
+                 />
+
+                <!--Image of Hera -->
+                <Image 
+                    x:Name="heraImage" 
+                    Aspect="AspectFit" >
+                </Image>
+
+                <!--Text of Information -->
+                <Label  
+                    Margin="20"
+                    TextColor="White"
+                    Text="Hera  is the goddess of women, marriage, family, and childbirth in ancient Greek religion and myth, one of the Twelve Olympians and the sister-wife of Zeus. She is the daughter of the Titans Cronus and Rhea. Hera rules over Mount Olympus as queen of the gods. A matronly figure, Hera served as both the patroness and protectress of married women, presiding over weddings and blessing marital unions. One of Hera's defining characteristics is her jealous and vengeful nature against Zeus' numerous lovers and illegitimate offspring, as well as the mortals who cross her.Hera also gave birth alone to Hephaistos (god of metallurgy) in retaliation for Zeus' similarly single-handed birth of Athena. However, Hera threw Hephaistos from Mount Olympus because of his ugliness, and crashing to earth, the god became lame. In other accounts, Hephaistos was thrown from the heavens by Zeus precisely because of his lameness. In any case, Hephaistos held a grudge against his mother and even imprisoned her in a special throne. Hera was only released from the device by promising her son the hand of Aphrodite in marriage. Hera is commonly seen with the animals she considers sacred including the cow, lion and the peacock."
+                />
+
+                <!--End of stacklayout -->
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

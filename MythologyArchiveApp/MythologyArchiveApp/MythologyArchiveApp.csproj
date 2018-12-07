@@ -32,7 +32,7 @@
     <EmbeddedResource Include="Assets\GreekImages\hades.jpg" />
     <EmbeddedResource Include="Assets\GreekImages\hera.jpg" />
     <EmbeddedResource Include="Assets\GreekImages\poseidon.jpg" />
-    <EmbeddedResource Include="Assets\GreekImages\zeus.JPG" />
+    <EmbeddedResource Include="Assets\GreekImages\zeus.jpg" />
     <EmbeddedResource Include="Assets\NorseImages\hel.jpg" />
     <EmbeddedResource Include="Assets\NorseImages\loki.jpg" />
     <EmbeddedResource Include="Assets\NorseImages\odin.jpg" />
@@ -51,6 +51,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Assets\GreekPages\HadesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Assets\GreekPages\HeraPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Assets\GreekPages\PoseidonPage.xaml">

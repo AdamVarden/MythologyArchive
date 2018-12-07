@@ -10,24 +10,24 @@ using Xamarin.Forms.Xaml;
 namespace MythologyArchiveApp.Assets.GreekPages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class ZeusPage : ContentPage
+	public partial class HeraPage : ContentPage
 	{
-		public ZeusPage ()
+		public HeraPage ()
 		{
             InitializeComponent();
-            //Display Image of Zeus
-            SetupImagesOnZeusPage();
+            //Display Image of Hera
+            SetupImagesOnHeraPage();
         }
 
-        //Getting and setting the Zeus image
-        private void SetupImagesOnZeusPage()
+        //Getting and setting the Hera image
+        private void SetupImagesOnHeraPage()
         {
             //Variables
-            var assembly = typeof(ZeusPage);
-            string pathway = "MythologyArchiveApp.Assets.GreekImages.zeus.jpg";
+            var assembly = typeof(HeraPage);
+            string pathway = "MythologyArchiveApp.Assets.GreekImages.hera.jpg";
 
             //Getting and setting the image
-            zeusImage.Source = ImageSource.FromResource(pathway, assembly);
+            heraImage.Source = ImageSource.FromResource(pathway, assembly);
 
         }
 

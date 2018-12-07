@@ -40,5 +40,11 @@ namespace MythologyArchiveApp
         {
             await Navigation.PushAsync(new Assets.GreekPages.HadesPage());
         }
+
+        //Linked to button to bring you to HeraPage
+        private async void Hera_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Assets.GreekPages.HeraPage());
+        }
     }
 }

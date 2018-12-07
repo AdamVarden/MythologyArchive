@@ -36,6 +36,17 @@
                     BorderWidth="10"
                     Clicked="Zeus_Clicked"
                 />
+
+                <!--Brings you to Hera-->
+                <Button 
+                    Text="Hera - Goddess of the Marriage"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="10"
+                    Clicked="Hera_Clicked"
+                />
                 
                 <!--Brings you to Poseidon-->
                 <Button 
@@ -58,8 +69,9 @@
                     BorderWidth="10"
                     Clicked="Hades_Clicked"
                 />
+
                 
-            <!--End of stacklayout-->
+                <!--End of stacklayout-->
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
