@@ -43,5 +43,12 @@ namespace MythologyArchiveApp
             await Navigation.PushAsync(new Assets.NorsePages.ThorPage());
 
         }
+
+        //Linked to button to bring you to HelPage
+        private async void Hel_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Assets.NorsePages.HelPage());
+
+        }
     }
 }

@@ -26,6 +26,7 @@
                     XAlign="Center"
                     
                 />
+
                 <!--Button for choosing Odin -->
                 <Button 
                     Text="Odin - Ruler of the Gods"
@@ -35,7 +36,6 @@
                     BorderColor="Blue"
                     BorderWidth="10"
                     Clicked="Odin_Clicked"
-
                 />
 
                 <!--Button for choosing Loki -->
@@ -60,7 +60,19 @@
                     BorderWidth="10"
                     Clicked="Thor_Clicked"
                 />
-             <!--End of stacklayout -->
+
+                <!--Button for choosing Hel -->
+                <Button 
+                    Text="Hel - Goddess of Death"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="10"
+                    Clicked="Hel_Clicked"
+                />
+                
+                <!--End of stacklayout -->
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

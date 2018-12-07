@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MythologyArchiveApp.Assets.NorsePages.HelPage"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!--Button to go back to NorseOptions -->
+                <Button 
+                    Text="Back"
+                    HorizontalOptions="Start"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="3"
+                    Clicked="Back_Clicked"
+                 />
+
+                <!--Ttile for Hel-->
+                <Label 
+                    Text="Hel" 
+                    TextColor="White" 
+                    FontSize="Large" 
+                    HorizontalOptions="Center"
+                 />
+
+                <!--Image of Hel -->
+                <Image 
+                    x:Name="helImage" 
+                    Aspect="AspectFit" >
+                </Image>
+
+                <!--Text of Information -->
+                <Label  
+                    Margin="20"
+                    TextColor="White"
+                    Text="Hel is a goddess who rules over the identically-named Hel, the underworld where many of the dead dwell. Her name's meaning of Hidden surely has to do with the underworld and the dead being hidden or buried beneath the ground . Hel is the daughter of Loki and  the sister of the wolf Fenrir and the world serpent, Jormungand. This makes her part of a highly dangerous and disreputable family. Hel is generally presented as being rather greedy, harsh, and cruel, or at least indifferent to the concerns of both the living and the dead.The only surviving myth in which she features prominently is that of The Death of Baldur. The beloved god Baldur was slain by none other than Hel's father, Loki, and the gods sent an emissary named Hermod to Hel in hopes of retrieving Baldur. Hermod pleaded with Hel, telling her how every living thing was in sorrow over the loss of Baldur. But Hel wouldn't give up her prize so easily. She told Hermod – in a taunting way, we can imagine – that she would only consent to release Baldur if every last thing in the universe wept for him. Hermod and the other gods went around and got almost everything in the cosmos to weep for Baldur. Only one giantess, who was probably Loki in disguise, refused. But because of that one refusal, the terms of Hel's offer weren't met, and Hel kept Baldur in her cold clutches."
+                />
+
+                <!--End of stacklayout -->
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
