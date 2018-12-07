@@ -42,5 +42,11 @@ namespace MythologyArchiveApp
         {
             await Navigation.PushAsync(new Assets.EgyptianPages.SetPage());
         }
+
+        //Linked to button to bring you to BastetPage
+        private async void Bastet_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Assets.EgyptianPages.BastetPage());
+        }
     }
 }

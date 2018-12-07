@@ -28,7 +28,7 @@
 
                 <!--Button for selecting Horus -->
                 <Button
-                    Text="Horus - God of Sky"
+                    Text="Horus - God of the Sky"
                     FontSize="Small"
                     TextColor="White"
                     BackgroundColor="Black"
@@ -39,7 +39,7 @@
                 
                 <!--Button for selecting Set -->
                 <Button
-                    Text="Set - God of the Chaos"
+                    Text="Set - God of Chaos"
                     FontSize="Small"
                     TextColor="White"
                     BackgroundColor="Black"
@@ -47,7 +47,19 @@
                     BorderWidth="10"
                     Clicked="Set_Clicked"                 
                 />
-                    <!--Button for selecting Isis -->
+
+                <!--Button for selecting Bastet -->
+                <Button 
+                    Text="Bastet - Goddess of the Home"
+                    FontSize="Small"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderColor="Blue"
+                    BorderWidth="10"
+                    Clicked="Bastet_Clicked"                 
+                />
+                
+                <!--Button for selecting Isis -->
                 <Button 
                     Text="Isis - Goddess of Magic"
                     FontSize="Small"

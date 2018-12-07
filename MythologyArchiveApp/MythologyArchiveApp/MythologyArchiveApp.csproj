@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <None Remove="Assets\Background\blackMarble.jpg" />
+    <None Remove="Assets\EgyptianImages\bastet.png" />
     <None Remove="Assets\EgyptianImages\horus.png" />
     <None Remove="Assets\EgyptianImages\isis.png" />
     <None Remove="Assets\EgyptianImages\set.png" />
@@ -26,6 +27,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Assets\Background\blackMarble.jpg" />
+    <EmbeddedResource Include="Assets\EgyptianImages\bastet.png" />
     <EmbeddedResource Include="Assets\EgyptianImages\horus.png" />
     <EmbeddedResource Include="Assets\EgyptianImages\isis.png" />
     <EmbeddedResource Include="Assets\EgyptianImages\set.png" />
@@ -44,6 +46,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Assets\EgyptianPages\BastetPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Assets\EgyptianPages\HorusPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
