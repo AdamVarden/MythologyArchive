@@ -4,8 +4,8 @@
              x:Class="MythologyArchiveApp.NorseOption"
               BackgroundColor="Black">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout>
+        <ScrollView> <!--Uses scroll view for when list of figures gets longer -->    
+            <StackLayout Spacing="15">
                 <!--Button to go back -->
                 <Button 
                     Text="Back"
@@ -16,15 +16,15 @@
                     BorderColor="Blue"
                     BorderWidth="3"
                     Clicked="Back_Clicked"
-            />
-                <!--Label -->
+                />
+                
+                <!--Title for this page-->
                 <Label 
                     Text="Choose which Norse Mythological Figure you'd like to see"
                     FontSize="32"
                     TextColor="White" 
                     VerticalTextAlignment="Center"
                     XAlign="Center"
-                    
                 />
 
                 <!--Button for choosing Odin -->

@@ -14,17 +14,21 @@ namespace MythologyArchiveApp
             InitializeComponent();
         }
 
+        //Linked to button to bring you to GreekOption
         private async void Greek_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new GreekOption());
 
         }
 
+        //Linked to button to bring you to NorseOption
         private async void Norse_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new NorseOption());
 
         }
+
+        //Linked to button to bring you to EgyptianOption
         private async void Egyptian_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new EgyptianOption());

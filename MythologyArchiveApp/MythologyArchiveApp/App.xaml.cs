@@ -11,6 +11,7 @@ namespace MythologyArchiveApp
         {
             InitializeComponent();
 
+            //Allowing for navigation 
             MainPage = new NavigationPage(new MainPage());
         }
 

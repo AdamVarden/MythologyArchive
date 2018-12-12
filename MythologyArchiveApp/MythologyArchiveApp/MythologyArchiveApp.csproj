@@ -10,7 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Assets\Background\blackMarble.jpg" />
     <None Remove="Assets\EgyptianImages\bastet.png" />
     <None Remove="Assets\EgyptianImages\horus.png" />
     <None Remove="Assets\EgyptianImages\isis.png" />
@@ -26,7 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Assets\Background\blackMarble.jpg" />
     <EmbeddedResource Include="Assets\EgyptianImages\bastet.png" />
     <EmbeddedResource Include="Assets\EgyptianImages\horus.png" />
     <EmbeddedResource Include="Assets\EgyptianImages\isis.png" />

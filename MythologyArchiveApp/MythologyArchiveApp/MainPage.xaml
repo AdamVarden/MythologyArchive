@@ -5,7 +5,7 @@
              x:Class="MythologyArchiveApp.MainPage"
              BackgroundColor="Black"
 >
-    <ScrollView>
+    <ScrollView> <!--Uses scroll view for when list of figures gets longer -->
         <StackLayout Spacing="20" x:Name="stckLayoutContent">
 
             <Label 

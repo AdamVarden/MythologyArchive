@@ -20,9 +20,7 @@ namespace MythologyArchiveApp
         //Linked to button to go back to the main page
         private async void Back_Clicked(object sender, EventArgs e)
         {
-
             await Navigation.PushAsync(new MainPage());
-
         }
 
         //Linked to button to bring you to HorusPage

@@ -4,8 +4,8 @@
              x:Class="MythologyArchiveApp.GreekOption"
               BackgroundColor="Black">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout>
+        <ScrollView> <!--Uses scroll view for when list of figures gets longer -->
+            <StackLayout Spacing="15">
                 <!--Brings you back to MainPage-->
                 <Button 
                     Text="Back"
@@ -17,7 +17,8 @@
                     BorderWidth="3"
                     Clicked="Back_Clicked"
                 />
-
+                
+                <!--Title for this page-->
                 <Label 
                     Text="Choose which Greek Mythological Figure you'd like to see"
                     FontSize="32"
@@ -39,7 +40,7 @@
 
                 <!--Brings you to Hera-->
                 <Button 
-                    Text="Hera - Goddess of the Marriage"
+                    Text="Hera - Goddess of Marriage"
                     FontSize="Small"
                     TextColor="White"
                     BackgroundColor="Black"
@@ -70,8 +71,7 @@
                     Clicked="Hades_Clicked"
                 />
 
-                
-                <!--End of stacklayout-->
+            <!--End of stacklayout-->
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

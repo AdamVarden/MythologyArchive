@@ -4,8 +4,8 @@
              x:Class="MythologyArchiveApp.EgyptianOption"
              BackgroundColor="Black">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout>
+        <ScrollView> <!--Uses scroll view for when list of figures gets longer --> 
+            <StackLayout Spacing="15">
                 <!--Button to go back a page -->
                 <Button 
                     Text="Back"
@@ -16,8 +16,9 @@
                     BorderColor="Blue"
                     BorderWidth="3"
                     Clicked="Back_Clicked" 
-                    />
-                <!-- Label -->
+                />
+                
+                <!--Title for this page-->
                 <Label 
                     Text="Choose which Egyption Mythological Figure you'd like to see"
                     FontSize="32"
